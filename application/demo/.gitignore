@@ -13,6 +13,12 @@ target/
 .springBeans
 .sts4-cache
 
+### Eclipse ###
+.metadata
+*.project
+*.classpath
+*.settings
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -31,3 +37,5 @@ build/
 
 ### VS Code ###
 .vscode/
+
+/application/
