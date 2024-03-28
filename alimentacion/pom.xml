@@ -14,6 +14,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <java.version>17</java.version>
+        <springboot.version>3.2.4</springboot.version>
         <jakartaee-api.version>10.0.0</jakartaee-api.version>
         <hibernate.version>6.4.0.Final</hibernate.version>
     </properties>
@@ -32,7 +33,7 @@
 			<dependency>
 			    <groupId>org.springframework.boot</groupId>
 			    <artifactId>spring-boot-starter-parent</artifactId>
-			    <version>3.2.0</version>
+			    <version>${springboot.version}</version>
 			    <type>pom</type>
 			    <scope>import</scope>
 			</dependency>
